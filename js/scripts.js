@@ -1,3 +1,4 @@
+// Play & Pause jQuery
 $(function() {
     $(".carousel").carousel( { interval: 2000 } );
     $("#carouselButton").click(function(){
@@ -12,3 +13,15 @@ $(function() {
         }
     });
 });
+// Reserve Modal Function
+$(function() {
+    $("#reserveButton").click(function() {
+    $("#reserveModal").modal("show");
+    })
+})
+// Login Modal Function
+$(function() {
+    $("#loginButton").click(function() {
+    $("#loginModal").modal("show");
+    })
+})
